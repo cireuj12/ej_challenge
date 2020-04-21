@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="simple.css">
+
+<table id="balances">
+        <tr>
+            <th class="input"><input type="checkbox"></th>
+                <th>Creditor</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Min Pay%</th>
+                <th>Balance</th>
+        </tr>
+    <!-- <tr id="main" class="transactions">
+
+    </tr> -->
+</table>
+
+
+
+<div id="form">
+    <button id="button">Add Debt</button>
+    <input id="creditor" class="form-field" type="text" name="creditor" value="Creditor">
+    <input id="firstName" class="form-field" type="text" name="firstName" value="First Name">
+    <input id="lastName" class="form-field" type="text" name="lastName" value="Last Name">
+    <input id="minPay" class="form-field" type="text" name="minPay" value="Min Pay%">
+    <input id="balance" class="form-field" type="text" name="balance" value="Balance">
+</div>
+<div id="total-row">
+    <div>Total</div>
+    <div id="total"></div>
+</div>
+<div id="count">
+    <div class="counter">
+        <div>Total Row Count:</div>
+        <div id="rowCount"></div>
+    </div>
+    <div class="counter">
+        <div>Check Row Count:</div>
+        <div id="checkCount">0</div> 
+    </div>
+</div>
+
+</body>
+<script src="fetch.js"></script>
+</html>
